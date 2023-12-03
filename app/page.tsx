@@ -11,7 +11,7 @@ export default function Home() {
   }
 
   return (
-    <main className="pt-8 bg-[#16425B] text-white h-screen">
+    <main className="pt-8 bg-[#16425B] text-white min-h-screen">
       <h1 className="text-5xl text-center">CV CREATOR</h1>
       <form onSubmit={submitHandeler} className="flex justify-center flex-col ">
         <General />
